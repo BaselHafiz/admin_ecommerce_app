@@ -1,90 +1,82 @@
 {
   "project_info": {
-    "project_number": "130034593582",
-    "firebase_url": "https://flutterfb-c451a.firebaseio.com",
-    "project_id": "flutterfb-c451a",
-    "storage_bucket": "flutterfb-c451a.appspot.com"
+    "project_number": "555934903862",
+    "firebase_url": "https://ecommerce-27e8d.firebaseio.com",
+    "project_id": "ecommerce-27e8d",
+    "storage_bucket": "ecommerce-27e8d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:130034593582:android:096cb5dab58bca60",
+        "mobilesdk_app_id": "1:555934903862:android:c8cbc2d2078a6980",
         "android_client_info": {
-          "package_name": "com.santosenoque.chatapp"
+          "package_name": "com.bmacode.admin_ecommerce_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "130034593582-kj0gvgofi0jaioqmrmdheu9fuq0u5fs4.apps.googleusercontent.com",
+          "client_id": "555934903862-74cbt7uipnqu79vfe12iu13afka0h7ip.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.santosenoque.chatapp",
-            "certificate_hash": "d1de65707c7ebcf4d8e50a8d1f0c507a286c740d"
+            "package_name": "com.bmacode.admin_ecommerce_app",
+            "certificate_hash": "40f51d4f427686ba12a5fd7f4090f8f7a4d52d24"
           }
         },
         {
-          "client_id": "130034593582-6lm7eqkp3l0o0ql7rjggj7k5lpver585.apps.googleusercontent.com",
+          "client_id": "555934903862-67p3g436hced90e4qall8592k678pao6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0krkwbtyDdOxbiOqilKSztGYsZ6TUzl4"
+          "current_key": "AIzaSyAi8yDDXOhOT6I492ggQExKNbtPFHgUwsQ"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "130034593582-6lm7eqkp3l0o0ql7rjggj7k5lpver585.apps.googleusercontent.com",
+              "client_id": "555934903862-67p3g436hced90e4qall8592k678pao6.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "130034593582-svrltmeguiaukj834rgcev56itc9hh94.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.santosenoque.chatApp"
-              }
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:130034593582:android:ca786232e79c2f08",
+        "mobilesdk_app_id": "1:555934903862:android:66f810c4cacdf808",
         "android_client_info": {
-          "package_name": "com.santosenoque.shop_app_admin"
+          "package_name": "com.bmacode.ecommerce_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "130034593582-6lm7eqkp3l0o0ql7rjggj7k5lpver585.apps.googleusercontent.com",
+          "client_id": "555934903862-jjojseoss3ebojdrq4dcia6c969un4vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bmacode.ecommerce_app",
+            "certificate_hash": "40f51d4f427686ba12a5fd7f4090f8f7a4d52d24"
+          }
+        },
+        {
+          "client_id": "555934903862-67p3g436hced90e4qall8592k678pao6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0krkwbtyDdOxbiOqilKSztGYsZ6TUzl4"
+          "current_key": "AIzaSyAi8yDDXOhOT6I492ggQExKNbtPFHgUwsQ"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555934903862-67p3g436hced90e4qall8592k678pao6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
