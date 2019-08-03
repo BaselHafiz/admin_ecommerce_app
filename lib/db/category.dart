@@ -1,13 +1,22 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:uuid/uuid.dart';
 
-class CategoryService{
+class CategoryService {
   Firestore _firestore = Firestore.instance;
 
-  void createCategory(String name){
-  var id = Uuid();
-  String categoryId = id.v1();
+  void createCategory(String name) {
+    var id = Uuid();
+    String categoryId = id.v1();
 
-    _firestore.collection('categories').document(categoryId).setData({'category': name});
+    _firestore
+        .collection('categories')
+        .document(categoryId)
+        .setData({'category': name});
+  }
+
+  Future<List<DocumentSnapshot>> getCategories() {
+    return _firestore.collection('categories').getDocuments().then((snaps) {
+      return snaps.documents;
+    });
   }
 }
